@@ -15,7 +15,7 @@ else
         ext="${ext:1}"
     fi
     echo "https://fileinfo.com/extension/$ext"
-    open "https://fileinfo.com/extension/$ext" # open Fileinfo page with specified extension
+    open "https://fileinfo.com/extension/$ext" # open FileInfo page with specified extension
 fi
 
 done

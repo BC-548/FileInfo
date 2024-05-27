@@ -12,4 +12,4 @@ while True:
         if ext.startswith("."):
             ext = ext[1:] # remove the '.' in front of the file extension
         print('https://fileinfo.com/extension/' + ext)
-        webbrowser.get(browserPath).open('https://fileinfo.com/extension/' + ext) # Open Fileinfo page with specified extension
+        webbrowser.get(browserPath).open('https://fileinfo.com/extension/' + ext) # Open FileInfo page with specified extension
